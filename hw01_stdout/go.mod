@@ -1,3 +1,3 @@
-module github.com/rez1dent3/go-education/hw01_helloworld
+module github.com/n-babicheva/go-hw/hw01_helloworld
 
 go 1.22.5
