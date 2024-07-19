@@ -8,9 +8,6 @@ import (
 
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
-	_ = scanner
-
-	// TODO: write your code here
-
-	fmt.Println(scanner.Text())
+	scanner.Scan()
+	fmt.Println("Input: ", scanner.Text())
 }
