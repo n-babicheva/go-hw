@@ -5,7 +5,9 @@ import "fmt"
 func main() {
 	var action string
 	var a, b int
+
 	_, _ = fmt.Scan(&action, &a, &b)
+
 	if action == "+" {
 		fmt.Println(a + b)
 	} else if action == "-" {
