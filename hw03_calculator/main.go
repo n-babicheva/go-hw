@@ -3,8 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var action string
-	var a, b int
+	var (
+		action string
+		a, b   int
+	)
 
 	_, _ = fmt.Scan(&action, &a, &b)
 
