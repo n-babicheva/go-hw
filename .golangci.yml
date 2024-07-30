@@ -14,6 +14,7 @@ linters:
     - tagalign
     - godox
     - forbidigo
+    - varnamelen
 linters-settings:
   lll:
     line-length: 140
